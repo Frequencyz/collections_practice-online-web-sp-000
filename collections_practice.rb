@@ -14,7 +14,7 @@ end
 
 #Array with the strings ordered in ascending order by length 
 def sort_array_char_count(array)
-  array.sort do {|a,b| a.length <=> b.length}
+  array.sort {|a,b| a.length <=> b.length}
 end
 
   
