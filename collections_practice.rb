@@ -46,6 +46,12 @@ def sum_array(array)
   array.inject { |sum,x| sum + x }
 end
 
+#Adds an s to each word that is not already plural
+def add_s9(array)
+  
+
+
+
   
 
 
