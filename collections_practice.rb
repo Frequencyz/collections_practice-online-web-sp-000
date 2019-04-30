@@ -36,6 +36,9 @@ def kesha_maker(array)
   array
 end
 
+# Return all strings that star with the letter a
+def find_a(array)
+  
 
   
 
