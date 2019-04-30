@@ -23,6 +23,9 @@ def swap_elements(array)
   array
 end
 
+#Array of integers and returns a copy of the arryay with the elements in reverse order
+def reverse_array(array)
+  
   
 
   
