@@ -1,3 +1,4 @@
+# Array with integers in ascending order
 def sort_array_asc (array)
 array.sort do |a,b|
   a <=> b
