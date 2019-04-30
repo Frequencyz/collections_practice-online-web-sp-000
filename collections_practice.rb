@@ -7,7 +7,11 @@ end
 
 # Array of integers in descending order
 def sort_array_desc(array)
-  array.sort do |
+  array.sort do |a,b|
+    b <=> a
+  end
+end
+
 
 
 
