@@ -19,6 +19,7 @@ end
 
 # Takes in an array and swaps the second and third elements
 def swap_elements(array)
+  array [1], array[2]
   
 
   
