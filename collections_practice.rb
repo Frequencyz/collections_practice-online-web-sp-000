@@ -38,7 +38,7 @@ end
 
 # Return all strings that star with the letter a
 def find_a(array)
-  array.start_with?("a")
+  array.select { |words| words.start_with?("a") }
 end
 
   
