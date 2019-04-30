@@ -23,10 +23,13 @@ def swap_elements(array)
   array
 end
 
-#Array of integers and returns a copy of the arryay with the elements in reverse order
+# Array of integers and returns a copy of the arryay in reverse order
 def reverse_array(array)
   array.reverse 
 end
+
+# An array that replaces the third character with a $
+def kesha_maker(array)
   
 
   
