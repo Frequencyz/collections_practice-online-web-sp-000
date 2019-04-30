@@ -43,7 +43,7 @@ end
 
 #Adds together all integers and returns their submit_tag
 def sum_array(array)
-  array.inject(0){|sum,x| sum + x }
+  array.inject{|sum,x| sum + x }
 end
 
   
