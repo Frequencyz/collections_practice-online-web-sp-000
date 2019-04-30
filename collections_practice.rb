@@ -30,7 +30,12 @@ end
 
 # An array that replaces the third character with a $
 def kesha_maker(array)
-  
+  array.each do |character|
+    character [2] = '$'
+  end
+  array
+end
+
 
   
 
