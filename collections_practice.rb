@@ -38,7 +38,8 @@ end
 
 # Return all strings that star with the letter a
 def find_a(array)
-  array.start_with?
+  array.start_with?("a")
+end
 
   
 
