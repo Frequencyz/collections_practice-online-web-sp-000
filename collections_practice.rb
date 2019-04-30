@@ -49,7 +49,8 @@ end
 #Adds an s to each word that is not already plural
 def add_s(array)
   array.collect do |word|
-    if word
+    if array[1] == word
+      
   
 
 
