@@ -41,6 +41,10 @@ def find_a(array)
   array.select { |words| words.start_with?("a") }
 end
 
+#Adds together all integers and returns their submit_tag
+def sum_array(array)
+  
+
   
 
 
