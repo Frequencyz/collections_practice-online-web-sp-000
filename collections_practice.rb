@@ -25,7 +25,9 @@ end
 
 #Array of integers and returns a copy of the arryay with the elements in reverse order
 def reverse_array(array)
-  array.sort {|a,b| array.reverse}
+  array.sort do |a,b|
+    array.reverse
+  end
 end
   
 
